@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Bijou",
+        "description": "Like Bijou, you are somehow both sassy and sweet. You take full advantage of the comforts of your home, from snuggling under the covers to watching the birds out the window. Once people get to know you, your true colors shine.",
+        "imgSrc": "bijou.JPG"
+    },
+    {
+        "name": "Mittens",
+        "description": "Like Mittens, you are very food-motivated. You're known to be vocal about your needs for nourishment and affection. You may come across as indecisive, but you believe others should be more readily anticipating your needs.",
+        "imgSrc": "mittens.jpeg"
+    },
+    {
+        "name": "Starry",
+        "description": "Like Starry, you embody the spirit of a nomad. You are always happy to embark on new adventures and meet new people. Some may call you reckless, but you prefer to call yourself brave.",
+        "imgSrc": "starry.jpeg"
+    }
+]
