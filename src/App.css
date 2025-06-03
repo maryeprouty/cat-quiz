@@ -40,15 +40,27 @@ h1, h2, legend {
   padding: 1rem 2rem;
   margin-top: 3rem;
   width: 500px;
-  min-height: 320px;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .card img {
     width: 100%;
+    height: auto;
+    display: block;
   }
+
+.result {
+  display: block;
+}
 
 fieldset {
   display: flex;
@@ -68,6 +80,10 @@ input[type='radio'] {
 
 label {
   font-size: 1.1rem;
+}
+
+.radio-btn {
+  margin: 0.2rem 0;
 }
 
 button {
@@ -115,5 +131,25 @@ button:disabled {
     margin: 0 auto;
   }
 
+}
+
+@container root (max-width: 455px) {
+
+  h1 {
+    font-size: 1.7rem;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  legend {
+    font-size: 1.15rem;
+  }
+
+  .card {
+    min-height: 390px;
+  }
 }
 
