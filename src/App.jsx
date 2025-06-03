@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
-import './App.css'
+import './App.scss'
 import Quiz from './components/Quiz.jsx';
 import personalities from './data/personalities.json' with { type: 'json' };
 

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+$muted: #E9EEF6;
+$lightgray: #f8f8f8;
+$gray: #d0cecea2;
+$offblack: #000000ee;
+
 #root {
   margin: 0 auto;
   padding: 2rem;
@@ -10,7 +15,7 @@ body {
   display: flex;
   min-height: 100vh;
   container: root / inline-size;
-  background-color: #E9EEF6;
+  background-color: $muted;
 }
 
 h1 {
@@ -19,10 +24,10 @@ h1 {
   margin: 1.5rem auto;
   align-items: center;
   display: flex;
-}
 
-h1 img {
-  margin-right: 0.5rem;
+  img {
+    margin-right: 0.5rem;
+  }
 }
 
 h1, h2, legend {
@@ -34,9 +39,9 @@ h1, h2, legend {
 
 .card {
   border-radius: 8px;
-  border: 1px solid #d0cecea2;
-  background-color: #f8f8f8;
-  color: #000000ee;
+  border: 1px solid $gray;
+  background-color: $lightgray;
+  color: $offblack;
   padding: 1rem 2rem;
   margin-top: 3rem;
   width: 500px;
@@ -44,6 +49,12 @@ h1, h2, legend {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
 .questions {
@@ -51,12 +62,6 @@ h1, h2, legend {
   flex-direction: column;
   justify-content: space-evenly;
 }
-
-.card img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
 
 .result {
   display: block;
@@ -88,7 +93,7 @@ label {
 
 button {
   color: white;
-  background-color: #000000ee;
+  background-color: $offblack;
   padding: 10px;
   border: none;
   border-radius: 16px;
